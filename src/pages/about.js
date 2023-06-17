@@ -58,11 +58,11 @@ const about = () => {
               </p>
 
               <p className="my-4 font-medium">
-              "Design is not just what it looks like and feels like. Design is how it works." - Steve Jobs
+              &quot;Design is not just what it looks like and feels like. Design is how it works.&quot; - Steve Jobs
               </p>
 
               <p className="font-medium">
-              This quote resonates with me, emphasizing the integration of form and function for exceptional design. I stay updated with new technologies and trends, constantly seeking growth. Collaboration, effective communication, and client feedback are key to my workflow. Together, let's bring your vision to life and make a meaningful impact in the digital landscape.
+              This quote resonates with me, emphasizing the integration of form and function for exceptional design. I stay updated with new technologies and trends, constantly seeking growth. Collaboration, effective communication, and client feedback are key to my workflow. Together, let&apos;s bring your vision to life and make a meaningful impact in the digital landscape.
               </p>
             </div>
 
