@@ -12,7 +12,7 @@ import project4 from "../../public/images/projects/girl portfolio showcase.png";
 import project5 from "../../public/images/projects/current website.png";
 import project6 from "../../public/images/projects/disease prediction system.png";
 import { motion } from "framer-motion";
-import TransitionEffect from "@/components/TransitionEffect";
+import TransitionEffect from "@/Components/TransitionEffect";
 
 const FramerImage = motion(Image);
 
