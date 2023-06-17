@@ -1,8 +1,8 @@
-import AnimatedText from '@/components/AnimatedText';
-import HireMe from '@/components/HireMe';
-import { LinkArrow } from '@/components/Icons';
-import Layout from '@/components/Layout'
-import TransitionEffect from '@/components/TransitionEffect';
+import AnimatedText from '@/Components/AnimatedText';
+import HireMe from '@/Components/HireMe';
+import { LinkArrow } from '@/Components/Icons';
+import Layout from '@/Components/Layout'
+import TransitionEffect from '@/Components/TransitionEffect';
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link';

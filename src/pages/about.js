@@ -1,9 +1,9 @@
-import AnimatedText from "@/components/AnimatedText";
-import Education from "@/components/Education";
-import Experience from "@/components/Experience";
-import Layout from "@/components/Layout";
-import Skills from "@/components/Skills";
-import TransitionEffect from "@/components/TransitionEffect";
+import AnimatedText from "@/Components/AnimatedText";
+import Education from "@/Components/Education";
+import Experience from "@/Components/Experience";
+import Layout from "@/Components/Layout";
+import Skills from "@/Components/Skills";
+import TransitionEffect from "@/Components/TransitionEffect";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
 import Head from "next/head";
 import Image from "next/image";
