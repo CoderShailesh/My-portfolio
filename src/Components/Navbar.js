@@ -46,7 +46,7 @@ const CustomMobileLink = ({ href, title, className = "", toggle }) => {
   return (
     <button
       href={href}
-      className={`${className} relative group text-light dark:text-dark my-2`}
+      className={`${className} relative group text-light dark:text-dark my-4`}
       onClick={handleClick}
     >
       {title}
@@ -104,7 +104,7 @@ const NavBar = () => {
         <nav className="flex items-center justify-center">
           <CustomLink href="/" title="Home" className="mr-4" />
           <CustomLink href="/about" title="About" className="mx-4" />
-          <CustomLink href="/projects" title="Projects" className="mx-4" />
+          <CustomLink href="/projects" title="Projects" className="ml-4" />
 
         </nav>
 
@@ -204,13 +204,13 @@ const NavBar = () => {
             
           </nav>
 
-          <nav className="flex items-center justify-center flex-wrap mt-2">
+          <nav className="flex items-center justify-center flex-wrap mt-4">
             <motion.a
               href="https://twitter.com/ping_shailesh"
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
-              className="w-6 mr-3 sm:mx-1"
+              className="w-6 mr-4 sm:mx-1"
             >
               <TwitterIcon />
             </motion.a>
@@ -220,7 +220,7 @@ const NavBar = () => {
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
-              className="w-6 mx-3 sm:mx-1"
+              className="w-6 mx-4 sm:mx-1"
             >
               <InstagramIcon />
             </motion.a>
@@ -230,7 +230,7 @@ const NavBar = () => {
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
-              className="w-6 mx-3 sm:mx-1"
+              className="w-6 mx-4 sm:mx-1"
             >
               <FacebookIcon />
             </motion.a>
@@ -238,7 +238,7 @@ const NavBar = () => {
             <motion.a
               href="https://github.com/acharya8"
               target={"_blank"}
-              className="w-6 mx-3 bg-light rounded-full dark:bg-dark sm:mx-1"
+              className="w-6 mx-4 bg-light rounded-full dark:bg-dark sm:mx-1"
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
             >
@@ -247,7 +247,7 @@ const NavBar = () => {
             <motion.a
               href="https://www.linkedin.com/in/shailesh-acharya/"
               target={"_blank"}
-              className="w-6 mx-3 sm:mx-1"
+              className="w-6 mx-4 sm:mx-1"
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
             >
