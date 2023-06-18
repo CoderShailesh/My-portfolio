@@ -8,7 +8,7 @@ import { useInView, useMotionValue, useSpring } from "framer-motion";
 import Head from "next/head";
 import Image from "next/image";
 import React, { useEffect, useRef } from "react";
-import profilePic from "../../public/images/profile/developer-pic-2.jpg";
+import profilePic from "../../public/images/profile/about shailesh acharya.jpg";
 
 const AnimatedNumbers = ({ value }) => {
   const ref = useRef(null);
@@ -74,7 +74,7 @@ bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span
               <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light" />
               <Image
                 src={profilePic}
-                alt="Codebucks"
+                alt="Shailesh Acharya"
                 className="w-full h-auto rounded-2xl"
                 priority
                 sizes="(max-width: 768px) 100vw,

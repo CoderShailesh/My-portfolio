@@ -1,0 +1,5 @@
+
+User-agent: *
+Allow: /
+
+Sitemap: https://acharyashailesh.com.np/sitemap.xml
